@@ -78,4 +78,9 @@ Pod::Spec.new do |s|
     ss.dependency 'SimpleAuth/Core'
     ss.source_files = 'Pod/Providers/SinaWeiboWeb'
   end
+
+  s.subspec 'AppFigures' do |ss|
+    ss.dependency 'SimpleAuth/Core'
+    ss.source_files = 'Pod/Providers/AppFigures'
+  end
 end

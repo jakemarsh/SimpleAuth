@@ -155,7 +155,6 @@
     }];
 }
 
-
 - (RACSignal *)accountWithAccessToken:(NSDictionary *)accessToken {
     return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
         NSURLRequest *request = [GCOAuth
